@@ -66,13 +66,13 @@ body {
   transition: 0.5s;
   position: relative;
   width: 80%;
-  height: calc(100% / 9);
+  height: 11.1111111111%;
   left: -100%;
   margin: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: moveslow 2s forwards;
+  animation: moveslow 1.5s forwards;
   transition-delay: 0.6s;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -81,8 +81,8 @@ body {
 }
 .container .header .menu-show__toggle .__toggle--menu-single.active-move:nth-child(1) {
   animation-delay: 0.1s !important;
-  background: linear-gradient(90deg, #002419 0%, #097952 35%, #00b0ff 100%);
-  transition: 0.5s;
+  background: linear-gradient(90deg, rgb(0, 36, 25) 0%, rgb(9, 121, 82) 35%, rgb(0, 176, 255) 100%);
+  transition: 0.3s;
 }
 .container .header .menu-show__toggle .__toggle--menu-single.active-move:nth-child(2) {
   animation-delay: 0.1s !important;
@@ -92,17 +92,17 @@ body {
 .container .header .menu-show__toggle .__toggle--menu-single.active-move:nth-child(3) {
   animation-delay: 0.15s !important;
   background: linear-gradient(to right, transparent, #fffcdc);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .container .header .menu-show__toggle .__toggle--menu-single.active-move:nth-child(4) {
   animation-delay: 0.2s !important;
   background: linear-gradient(to right, transparent, #fffcdc);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .container .header .menu-show__toggle .__toggle--menu-single.active-move:nth-child(5) {
   animation-delay: 0.25s !important;
   background: linear-gradient(to right, transparent, #fffcdc);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 @keyframes moveslow {
   0% {
@@ -110,7 +110,7 @@ body {
     margin: 2px;
   }
   100% {
-    left: 0;
+    left: 0%;
     background: linear-gradient(to right, transparent, #fffcdc);
   }
 }
@@ -135,9 +135,8 @@ body {
   color: #e74c3c;
 }
 .container .header .menu-show__toggle .__toggle--menu-single.active-move.animatewidth {
-  transition-delay: 0.2s;
   width: 100%;
-  height: calc(55% /4);
+  height: 13.75%;
   border-radius: 0px;
   margin: 0;
   box-shadow: none;
@@ -950,7 +949,7 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #4d4d4d;
+  color: rgb(77, 77, 77);
   z-index: 1;
 }
 @media (max-width: 1260px) {
@@ -1948,7 +1947,7 @@ body {
 }
 .container .touch .t__page .__infor .__infor--box {
   background: transparent;
-  width: calc(100% /3);
+  width: 33.3333333333%;
   margin: 20px;
   height: 120px;
   display: flex;

@@ -37,7 +37,7 @@ toggleButton.addEventListener("click", () => {
         single.classList.add("active-move");
         setTimeout(() => {
             single.classList.add("animatewidth");
-        }, 1300);
+        }, 1000);
     })
 
 });
